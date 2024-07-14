@@ -1,0 +1,14 @@
+{
+	"name": "AR",
+	"logo": "",
+	
+	"username": {
+		"github": "abhishekrj02"
+	},
+
+	"portfolio": { 
+		"forkthis": "Steal this theme! Its open-source 🥰",
+		"repo_html": "https://www.github.com/atlamors/portfolio",
+		"repo_api": "https://api.github.com/repos/atlamors/portfolio"
+	}
+}

@@ -1,0 +1,73 @@
+@import "../scss/_mixins";
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    > div {
+        display: flex;
+        flex-direction: column;
+        gap: var(--size-3x);
+    }
+
+    h4 {
+        margin-bottom: var(--size-1x);
+		text-align: right;
+    }
+
+    a {
+        font-size: 0.875rem;
+        font-weight: 600;
+        color: var(--primary);
+
+        &:hover {
+            color: var(--primary-bright);
+        }
+    }
+
+    svg {
+        height: 0.875rem;
+        vertical-align: -0.1rem;
+        margin-left: 0.125rem;
+    }
+
+    ul {
+		
+        li {
+            overflow-wrap: break-word;
+            margin-bottom: var(--size-2-);
+        }
+    }
+}
+
+.socialList {
+    display: flex;
+    gap: 1rem;
+	flex-direction: row-reverse;
+
+    svg {
+        height: 2rem;
+    }
+}
+
+.svg-inline--fa.fa-code-branch {
+    margin-left: 1rem;
+
+    .fa-secondary {
+        fill: #a371f7;
+        opacity: 1;
+    }
+}
+
+@include media($max: $mobile) {
+    .container {
+        ul {
+            width: 100% !important; // :nth-of-type specifity is bad
+        }
+
+        .socialList {
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+	"intro": {
+		"start": "MERN Stack Developer.",
+		"end": "UI/UX Designer.",
+		"speed": 60,
+		"deletionSpeed": 80,
+		"wrapper": "h2",
+		"startDelay": 1000,
+		"deleteDelay": 3000,
+		"restartDelay": 12000
+	},
+
+	"header": {
+		"name": "Abhishek Raj",
+		"usp": "I design and build webpages."
+	},
+
+	"paragraph": "I am 3rd year Electronics and Communication engineering student at National Institute of Technology, Hamirpur, Himachal Pradesh.",
+
+	"buttons": {
+		"primary": {
+			"title": "Contact",
+			"url": "",
+			"leaveSite": false
+		},
+		"secondary": {
+			"title": "LinkedIn",
+			"url": "",
+			"leaveSite": "true"
+		}
+	}
+}

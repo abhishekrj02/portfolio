@@ -1,0 +1,20 @@
+{
+    "social": [
+        {
+            "url": "https://www.instagram.com/__abhishekraj_/",
+            "icon": "instagram"
+        },
+        {
+            "url": "https://twitter.com/_RJAbhishek",
+            "icon": "twitter"
+        },
+        {
+            "url": "https://www.linkedin.com/in/abhishek-raj-a09181215",
+            "icon": "linkedin"
+        },
+        {
+            "url": "https://github.com/abhishekrj02",
+            "icon": "github"
+        }
+    ]
+}
