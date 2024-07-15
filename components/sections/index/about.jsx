@@ -41,7 +41,7 @@ export default function About() {
                             title="Softskills that pay the bills"
                             containerClass={about.container}
                             iconClass={about.icon}
-                            icon={["fat", "ear-listen"]}
+                            icon={["fas", "ear-listen"]}
                             copy="With a knack for clear communication and a keen eye for detail, I excel in fostering collaborative environments where creativity thrives. My adaptability allows me to navigate diverse challenges with ease, while my empathy ensures I understand and meet the needs of clients and colleagues alike. I prioritize integrity and reliability in all aspects of my work, aiming always for excellence in everything I undertake."
                         />
                     </div>

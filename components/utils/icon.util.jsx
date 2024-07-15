@@ -5,9 +5,12 @@ import { useEffect, useState } from 'react'
 const { library, config } = require('@fortawesome/fontawesome-svg-core')
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+
+
 
 // Load icons into
-library.add( fab)
+library.add( fas, fab)
 
 /**
  * Icon factory utility.

@@ -3,12 +3,23 @@
 	"logo": "",
 	
 	"username": {
-		"github": "abhishekrj02"
+		"github": "abhishekrj02" ,
+		"medium": "@--andrewnelson"
+		
 	},
 
 	"portfolio": { 
 		"forkthis": "Steal this theme! Its open-source 🥰",
 		"repo_html": "https://www.github.com/atlamors/portfolio",
 		"repo_api": "https://api.github.com/repos/atlamors/portfolio"
+	},
+	"behance":{
+		"title":"Travel Planner App - TripEase",
+		"date":"July 12th 2024",
+		"link":"https://www.behance.net/gallery/203048583/UIUX-Case-Study-of-Travel-Planner-App-TripEase",
+		"author":"Abhishek Raj",
+		"thumbnail": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/0068c2203048583.6690268c2da6f.png",
+		"description": "TripEase is a comprehensive trip planning app designed to simplify travel organization for users."
+		
 	}
 }

@@ -40,7 +40,7 @@ export default function Technical() {
                             list={software}
                             block="software"
                             fullContainer="fullContainer"
-                            icon="grid-2-plus"
+                            icon="cube"
                             containerClass={about.container}
                             headerIcon={about.icon}
                         />

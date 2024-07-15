@@ -128,32 +128,6 @@
     --mesh-color-4: #c8ceda;
 }
 
-// Unicorn mode theme
-:root[data-theme='unicorn'] {
-	--primary-bright:	#000000;
-	--primary: 			#2e2e2e;
-	--primary-dim:		#464646;
-	--primary-dim2:		#585858;
-	--primary-dark:		#dfdfdf;
 
-	--secondary: 		#ff00bb;
-	--secondary-bright:	#feff00;
-
-	--background: 		#ffffff;
-	--background-dim:	#fbfbfb;
-	--background-dim2:	#fefefe;
-
-	--neon-1-1: #37eaf7;
-	--neon-1-2: #c624ee;
-	--neon-2-1: #eaf737;
-	--neon-2-2: #2493ee;
-
-	--icon-bright: var(--neon-1-1);
-
-	--mesh-color-1: #96c4f3;
-    --mesh-color-2: #f296cc;
-    --mesh-color-3: #efe2ba;
-    --mesh-color-4: #c8d7da;
-}
 
 

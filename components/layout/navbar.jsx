@@ -156,6 +156,9 @@ export default function Navbar() {
 						})	
 						}
 						<li>
+							<Link href={'https://drive.google.com/file/d/1dlRCfMTRyCe8gqGVB9Mc75T3uWFFPrYT/view?usp=sharing'}><a target='_blank'>Resume</a></Link>
+						</li>
+						<li>
 							<ThemeMode />
 						</li>
 					</ul>
