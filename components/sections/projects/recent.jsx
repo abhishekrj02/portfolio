@@ -17,7 +17,7 @@ export default function GitProjects({ repos, user }) {
 					<Image className={css.profilePhoto} src={`${user[0].avatar_url}`} alt="Github Profile Photo" height={60} width={60}/>
 					<span class={css.details}>
 						<p>{user[0].name}</p>
-						<a href={user[0].html_url} rel="noreferrer" target="_blank">{user[0].html_url} <Icon icon={[ 'far', 'arrow-up-right-from-square' ]} /></a>
+						<a href={user[0].html_url} rel="noreferrer" target="_blank">{user[0].html_url} <Icon icon={[ 'fas', 'arrow-up-right-from-square' ]} /></a>
 					</span>
 				</section>
 				<div className={css.projects}>

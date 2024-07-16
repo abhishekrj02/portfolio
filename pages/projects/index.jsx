@@ -13,6 +13,7 @@ export default function Projects({ user, repos }) {
 		<>
 		<Color colors={colors} />
 		<FeaturedProjects />
+		
 		<GitRecentProjects user={user} repos={repos} />
 		</>
 	)
@@ -35,7 +36,6 @@ export async function getServerSideProps({ res }) {
 		gitUserRes.json(),
 		gitReposRes.json(), 
 	] )
-
 	if (user.login) {
 		user = [user].map( 
 			({ login, name, avatar_url, html_url }) => ({ login, name, avatar_url, html_url })
@@ -43,7 +43,7 @@ export async function getServerSideProps({ res }) {
 	}
 	
 	if (repos.length) {
-		repos = repos.map( 
+		repos = repos.slice(0,4).map( 
 			({ name, fork, description, forks_count, html_url, language, watchers, default_branch, homepage, pushed_at, topics }) => {
 				const timestamp = Math.floor(new Date(pushed_at) / 1000)
 				return ({ name, fork, description, forks_count, html_url, language, watchers, default_branch, homepage, timestamp, topics, pushed_at })
