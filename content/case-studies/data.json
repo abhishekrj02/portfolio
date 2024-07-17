@@ -11,5 +11,17 @@
             { "name": "Photoshop", "icon": "photoshop-plain" },
             { "name": "Illustrator", "icon": "illustrator-plain" }
         ]
+    },
+    {
+        "title": "Learning Management System Dashboard",
+        "date": "July 17th 2024",
+        "link": "https://www.behance.net/gallery/203478907/Learing-Management-System-Student-Dashboard-UI-Design",
+        "author": "Abhishek Raj",
+        "thumbnail": "https://mir-cdn.behance.net/v1/rendition/project_modules/max_3840/391bdd203478907.6697e1d61c9e0.png",
+        "description": "This project showcases a modern and intuitive dashboard UI for a Learning Management System (LMS).",
+        "categories": [
+            { "name": "Figma", "icon": "figma-plain" },
+            { "name": "Photoshop", "icon": "photoshop-plain" }
+        ]
     }
 ]
