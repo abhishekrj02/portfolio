@@ -23,5 +23,17 @@
             { "name": "Figma", "icon": "figma-plain" },
             { "name": "Photoshop", "icon": "photoshop-plain" }
         ]
+    },
+    {
+        "title": "Modern Redesign of Edu123.in Website",
+        "date": "July 18th 2024",
+        "link": "https://www.behance.net/gallery/203575741/Modern-Redesign-of-Edu123in-Website",
+        "author": "Abhishek Raj",
+        "thumbnail": "https://mir-cdn.behance.net/v1/rendition/project_modules/max_3840/c344cd203575741.6699517cf1ca1.png",
+        "description": "Redesign of the edu123.in website to elevate its visual appeal and improve overall user experience.",
+        "categories": [
+            { "name": "Figma", "icon": "figma-plain" },
+            { "name": "Photoshop", "icon": "photoshop-plain" }
+        ]
     }
 ]
