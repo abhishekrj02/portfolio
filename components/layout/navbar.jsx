@@ -156,7 +156,7 @@ export default function Navbar() {
 						})	
 						}
 						<li>
-							<Link href={'https://drive.google.com/drive/folders/1JQsVj3RcTqJIZ1ndwFET2pgCh9zoTDT_?usp=sharing'}><a target='_blank'>Resume</a></Link>
+							<Link href={'https://drive.google.com/file/d/1fQpacZ3Bck-9-NnxjVWahyCEzBVx43sC/view?usp=drive_link'}><a target='_blank'>Resume</a></Link>
 						</li>
 						<li>
 							<ThemeMode />
