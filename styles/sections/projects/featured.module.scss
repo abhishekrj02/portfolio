@@ -9,7 +9,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     user-select: none;
-
+    text-align: justify;
     border-radius: 2rem;
     background-color: var(--background-dim2);
     border: 1px solid var(--primary-dark);
@@ -28,6 +28,7 @@
             color: var(--neon-1-1);
         }
     }
+    
 }
 
 .projectHeader {
@@ -36,7 +37,7 @@
     gap: var(--size-3x);
 
     p {
-        font-size: 1.75rem;
+        font-size: 1.35rem;
         line-height: 1.2;
 
         strong {

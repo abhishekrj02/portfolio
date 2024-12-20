@@ -30,7 +30,7 @@ export default function About() {
                 <SectionTitle
                     title="About Me"
                     preTitle="Synopsis"
-                    subTitle="I am a versatile UI/UX designer and MERN stack developer with a passion for creating intuitive and visually appealing user experiences. With a strong foundation in both design and development, I specialize in bringing projects to life from concept to completion."
+                    subTitle="I am a versatile UI/UX designer and Full Stack Developer with a passion for creating intuitive and visually appealing user experiences. With a strong foundation in both design and development, I specialize in bringing projects to life from concept to completion."
                 />
                 <section className={about.content}>
                     <div className={about.image} style={{ flex: 1, boxShadow: '0 4px 25px 8px rgba(255, 255, 255, 0.09)'}}>

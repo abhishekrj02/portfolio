@@ -1,67 +1,67 @@
 [
-    {
-        "project": "CodEase Backend",
-        "url": "https://github.com/abhishekrj02/Codease_backend",
-        "repo": "Public",
-        "repoUrl":"https://github.com/abhishekrj02/Codease_backend",
-        "descriptionTitle": "A learning management API",
-        "description": "that supports course creation, user management, end-to-end encryptions and payments with a focus on security.",
-        "stack": [
-            {
-                "key": "javascript-plain",
-                "name": "JavaScript",
-                "type": "devicon"
-            },
-            {
-				"key": "nodejs-line",
-				"name": "Nodejs",
-				"type": "devicon" 
-			},
-            {
-                "key": "express-original",
-                "name": "Expressjs",
-                "type": "devicon"
-            },
-            {	"key": "file-waveform",
-				"name": "Multer",
-				"type": "fas" 
-			},
-            {	"key": "key",
-				"name": "JWT Token",
-				"type": "fas" 
-			},
-            {	"key": "cloud-arrow-up",
-				"name": "Cloudinary",
-				"type": "fas" 
-			},
-            {	"key": "wallet",
-				"name": "Razorpay",
-				"type": "fas" 
-			},
-            {	"key": "git-plain",
-				"name": "Git",
-				"type": "devicon" 
-			},
-            {	"key": "postman-plain",
-				"name": "Postman",
-				"type": "devicon" 
-			}
-        ]
-    },
-    {
-        "project": "TeamVibhav Website",
-        "url": "https://www.teamvibhav.in/",
-        "repo": "Public",
-        "repoUrl":"https://github.com/abhishekrj02/Vibhav_2k24",
-        "descriptionTitle": "A dynamic and visually appealing website",
-        "description": " for Team Vibhav that not only showcases our activities and achievements but also fosters engagement and community building among our members and stakeholders.",
-        "stack": [
-			{ "key": "javascript-plain", "name": "JavaScript", "type": "devicon" },
-            { "key": "nextjs-plain", "name": "Nextjs", "type": "devicon" },
-            { "key": "react-plain", "name": "Reactjs", "type": "devicon" },
-			{ "key": "css3-plain", "name": "CSS3", "type": "devicon" },
-			{ "key": "tailwindcss-plain", "name": "tailwindcss", "type": "devicon" },
-            { "key": "git-plain", "name": "GitHub", "type": "devicon" }
-        ]
-    }
+  {
+    "project": "CourseGPT",
+    "url": "https://coursegpt-v1.vercel.app/",
+    "repo": "Public",
+    "repoUrl": "https://github.com/abhishekrj02/courseGPT",
+    "descriptionTitle": "CourseGPT is an innovative platform",
+    "description": "that uses AI to design tailored learning experiences. It creates personalized courses based on user preferences, skill levels, and learning objectives. Whether for professional development or personal growth, CourseGPT simplifies course creation by providing customized content, interactive modules, and adaptable learning paths, ensuring an engaging and effective educational journey for everyone.",
+    "stack": [
+      { "key": "nextjs-plain", "name": "Nextjs", "type": "devicon" },
+      { "key": "javascript-plain", "name": "JavaScript", "type": "devicon" },
+      { "key": "tailwindcss-plain", "name": "tailwindcss", "type": "devicon" },
+      { "key": "postgresql-plain", "name": "Postgresql", "type": "devicon" },
+      { "key": "server", "name": "DrizzleORM", "type": "fas" },
+      { "key": "user", "name": "Clerk", "type": "fas" },
+      { "key": "wand-magic-sparkles", "name": "Gemini Api", "type": "fas" },
+      { "key": "git-plain", "name": "GitHub", "type": "devicon" }
+    ]
+  },
+  {
+    "project": "CodEase Backend",
+    "url": "https://github.com/abhishekrj02/Codease_backend",
+    "repo": "Public",
+    "repoUrl": "https://github.com/abhishekrj02/Codease_backend",
+    "descriptionTitle": "A learning management API",
+    "description": "that supports course creation, user management, end-to-end encryptions and payments with a focus on security.",
+    "stack": [
+      {
+        "key": "javascript-plain",
+        "name": "JavaScript",
+        "type": "devicon"
+      },
+      {
+        "key": "nodejs-line",
+        "name": "Nodejs",
+        "type": "devicon"
+      },
+      {
+        "key": "express-original",
+        "name": "Expressjs",
+        "type": "devicon"
+      },
+      { "key": "file-waveform", "name": "Multer", "type": "fas" },
+      { "key": "key", "name": "JWT Token", "type": "fas" },
+      { "key": "cloud-arrow-up", "name": "Cloudinary", "type": "fas" },
+      { "key": "wallet", "name": "Razorpay", "type": "fas" },
+      { "key": "git-plain", "name": "Git", "type": "devicon" },
+      { "key": "postman-plain", "name": "Postman", "type": "devicon" }
+    ]
+  },
+  {
+    "project": "TeamVibhav Website",
+    "url": "https://www.teamvibhav.in/",
+    "repo": "Public",
+    "repoUrl": "https://github.com/abhishekrj02/Vibhav_2k24",
+    "descriptionTitle": "A dynamic and visually appealing website",
+    "description": " for Team Vibhav that not only showcases our activities and achievements but also fosters engagement and community building among our members and stakeholders.",
+    "stack": [
+      { "key": "javascript-plain", "name": "JavaScript", "type": "devicon" },
+      { "key": "nextjs-plain", "name": "Nextjs", "type": "devicon" },
+      { "key": "react-plain", "name": "Reactjs", "type": "devicon" },
+      { "key": "css3-plain", "name": "CSS3", "type": "devicon" },
+      { "key": "tailwindcss-plain", "name": "tailwindcss", "type": "devicon" },
+      { "key": "git-plain", "name": "GitHub", "type": "devicon" }
+    ]
+  }
 ]

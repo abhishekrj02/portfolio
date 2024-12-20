@@ -38,5 +38,5 @@ export default function Icon({ icon }) {
         setIconType(iconType);
     }, [iconKey, iconType]);
 
-    return <FontAwesomeIcon icon={[iconType, stateIconKey]} />;
+    return <FontAwesomeIcon icon={[iconType || stateIconType, iconKey || stateIconKey]} />;
 }
