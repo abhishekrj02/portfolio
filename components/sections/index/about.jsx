@@ -34,7 +34,7 @@ export default function About() {
                 />
                 <section className={about.content}>
                     <div className={about.image} style={{ flex: 1, boxShadow: '0 4px 25px 8px rgba(255, 255, 255, 0.09)'}}>
-                        <img src="/img/myimg.jpg" alt="Me" />
+                        <img src="/img/myimg.png" alt="Me" />
                     </div>
                     <div className={about.copy}>
                         <CopyBlock

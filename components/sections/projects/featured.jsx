@@ -12,7 +12,7 @@ export default function FeaturedProjects() {
 				<SectionTitle
 					title="Featured Projects"
 					preTitle="Web2 and Web3"
-					subTitle="Showcasing talent through key projects"
+					subTitle=""
 				/> 				{
 				content.map( (data, index) => {
 					return (
