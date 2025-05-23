@@ -4,10 +4,12 @@ import { useInView } from "react-intersection-observer";
 import Badges from "../../utils/badge.list.util";
 import Icon from "../../utils/icon.util";
 import css from "../../../styles/sections/projects/featured.module.scss";
+import Image from "next/image";
+import proimage from "../../../public/img/code3.jpg"
 
 
 export default function ProjectCard({ content }, index) {
-    const { project, url, repo,repoUrl, descriptionTitle, description, stack } =
+    const { project, url, repo, repoUrl, img, descriptionTitle, description, stack } =
         content;
 
     const controls = useAnimation();
@@ -43,12 +45,19 @@ export default function ProjectCard({ content }, index) {
                         <span className={css.privateOr}>
                             <a href={repoUrl} target="_blank">
                                 <i className="devicon-github-plain"></i>
-								{" "}
+                                {" "}
                                 {repo}
-								{"  "}
-								<Icon icon={['fas', 'up-right-from-square']}/>
+                                {"  "}
+                                <Icon icon={['fas', 'up-right-from-square']} />
                             </a>
                         </span>
+                    </div>
+                    <div>
+                        <Image src={img} alt="Your image"
+                            layout="responsive"
+                            width={100}
+                            height={50}>
+                        </Image>
                     </div>
                     <div className={css.description}>
                         <p>

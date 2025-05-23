@@ -30,7 +30,7 @@ export default function About() {
                 <SectionTitle
                     title="About Me"
                     preTitle="Synopsis"
-                    subTitle="I am a versatile UI/UX designer and Full Stack Developer with a passion for creating intuitive and visually appealing user experiences. With a strong foundation in both design and development, I specialize in bringing projects to life from concept to completion."
+                    subTitle="I’m a UI/UX designer and full-stack developer who loves turning ideas into cool, easy-to-use apps. I’m comfortable jumping between designing smooth interfaces and writing solid code to bring projects to life. Besides building stuff, I’m into open source — it’s a great way to learn, share, and be part of something bigger. Always down to collaborate and create things that people actually enjoy using."
                 />
                 <section className={about.content}>
                     <div className={about.image} style={{ flex: 1, boxShadow: '0 4px 25px 8px rgba(255, 255, 255, 0.09)'}}>
@@ -38,11 +38,11 @@ export default function About() {
                     </div>
                     <div className={about.copy}>
                         <CopyBlock
-                            title="Softskills that pay the bills"
+                            title="Soft skills that make a difference"
                             containerClass={about.container}
                             iconClass={about.icon}
                             icon={["fas", "ear-listen"]}
-                            copy="With a knack for clear communication and a keen eye for detail, I excel in fostering collaborative environments where creativity thrives. My adaptability allows me to navigate diverse challenges with ease, while my empathy ensures I understand and meet the needs of clients and colleagues alike. I prioritize integrity and reliability in all aspects of my work, aiming always for excellence in everything I undertake."
+                            copy="I’m good at clear communication and paying attention to the little things that matter. I work well with others and love being part of a creative team. I’m flexible and open to new ideas, handling challenges without stress. Most importantly, I listen closely to what clients and teammates need and always aim to deliver my best with honesty and consistency."
                         />
                     </div>
                 </section>

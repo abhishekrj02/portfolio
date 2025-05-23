@@ -99,6 +99,11 @@
     }
 }
 
+.descriptionBox{
+    display: flex;
+    flex-direction: row;
+}
+
 .imageContainer {
     z-index: 3;
     position: relative;

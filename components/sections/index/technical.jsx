@@ -30,13 +30,15 @@ export default function Technical() {
                 <SectionTitle
                     title="Technical"
                     preTitle="Hardskills"
-                    subTitle="Leveraging a multifaceted skill set, I develop innovative solutions that seamlessly blend technology and creativity."
+                    subTitle="Harnessing a diverse range of tools and technologies, I build efficient, scalable, and user-friendly applications from frontend to backend.
+
+"
                 />
                 <section className={`${about.content} ${about.container}`}>
                     <div className={about.copy}>
                         <BadgesBlock
                             title="Software I love to work with"
-                            copy="Passionate about digital creation, I thrive on using cutting-edge software to bring innovative ideas to life."
+                            copy="From sketching ideas to writing code, these are the software essentials I rely on to bring concepts to life and push boundaries."
                             list={software}
                             block="software"
                             fullContainer="fullContainer"
@@ -46,7 +48,7 @@ export default function Technical() {
                         />
                         <BadgesBlock
                             title="Technologies I love to build with"
-                            copy="I thrive on crafting elegant solutions with code, embracing the full stack from front-end interfaces to back-end systems and everything in between."
+                            copy="I enjoy working across the entire stack, combining modern tools and frameworks to create smooth, reliable, and scalable solutions."
                             list={tech}
                             block="tech"
                             fullContainer="fullContainer"

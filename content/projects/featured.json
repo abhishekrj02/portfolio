@@ -4,17 +4,38 @@
     "url": "https://coursegpt-v1.vercel.app/",
     "repo": "Public",
     "repoUrl": "https://github.com/abhishekrj02/courseGPT",
+    "img": "/img/coursegpt.jpg",
     "descriptionTitle": "CourseGPT is an innovative platform",
     "description": "that uses AI to design tailored learning experiences. It creates personalized courses based on user preferences, skill levels, and learning objectives. Whether for professional development or personal growth, CourseGPT simplifies course creation by providing customized content, interactive modules, and adaptable learning paths, ensuring an engaging and effective educational journey for everyone.",
     "stack": [
       { "key": "nextjs-plain", "name": "Nextjs", "type": "devicon" },
-      { "key": "javascript-plain", "name": "JavaScript", "type": "devicon" },
       { "key": "tailwindcss-plain", "name": "tailwindcss", "type": "devicon" },
-      { "key": "postgresql-plain", "name": "Postgresql", "type": "devicon" },
-      { "key": "server", "name": "DrizzleORM", "type": "fas" },
-      { "key": "user", "name": "Clerk", "type": "fas" },
-      { "key": "wand-magic-sparkles", "name": "Gemini Api", "type": "fas" },
-      { "key": "git-plain", "name": "GitHub", "type": "devicon" }
+      { "key": "nodejs-line", "name": "Nodejs", "type": "devicon" },
+      { "key": "express-original", "name": "Expressjs", "type": "devicon"},
+      { "key": "mongodb-plain", "name": "MongoDb", "type": "devicon" },
+      { "key": "wand-magic-sparkles", "name": "Gemini Api", "type": "fas" }
+      
+    ]
+  },
+  {
+    "project": "Code3 - Blockchain Coding Platform",
+    "url": "https://code3main.vercel.app/",
+    "repo": "Public",
+    "repoUrl": "https://github.com/abhishekrj02/Code3",
+    "img": "/img/code3.jpg",
+    "descriptionTitle": "An interactive blockchain coding platform",
+    "description": "designed for learning and solving challenges in Solidity and Move. Code3 enables real-time smart contract development, testing, and deployment on Ethereum and Aptos networks. With a user-friendly interface and seamless integration with developer tools, it enhances the hands-on learning experience for blockchain enthusiasts.",
+    "stack": [
+      { "key": "nextjs-plain", "name": "Nextjs", "type": "devicon" },
+      { "key": "tailwindcss-plain", "name": "tailwindcss", "type": "devicon" },
+      { "key": "nodejs-line", "name": "Nodejs", "type": "devicon" },
+      { "key": "express-original", "name": "Expressjs", "type": "devicon"},
+      { "key": "mongodb-plain", "name": "MongoDb", "type": "devicon" },
+      { "key": "cube", "name": "Ethereum", "type": "fas" },
+      { "key": "hardhat-plain", "name": "Hardhat", "type": "devicon" },
+      { "key": "solidity-plain", "name": "Solidity", "type": "devicon" },
+      { "key": "rocket", "name": "Aptos SDK", "type": "fas" },
+      { "key": "code", "name": "Move", "type": "fas" }
     ]
   },
   {
@@ -22,6 +43,7 @@
     "url": "https://github.com/abhishekrj02/Codease_backend",
     "repo": "Public",
     "repoUrl": "https://github.com/abhishekrj02/Codease_backend",
+    "img": "/img/lms.jpg",
     "descriptionTitle": "A learning management API",
     "description": "that supports course creation, user management, end-to-end encryptions and payments with a focus on security.",
     "stack": [
@@ -53,6 +75,7 @@
     "url": "https://www.teamvibhav.in/",
     "repo": "Public",
     "repoUrl": "https://github.com/abhishekrj02/Vibhav_2k24",
+    "img": "/img/teamvibhav.jpg",
     "descriptionTitle": "A dynamic and visually appealing website",
     "description": " for Team Vibhav that not only showcases our activities and achievements but also fosters engagement and community building among our members and stakeholders.",
     "stack": [
